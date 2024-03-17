@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MOB_WEB</title>
+    <title>Unity WebGL Player | Web-test</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">MOB_WEB</div>
+        <div id="unity-build-title">Web-test</div>
       </div>
     </div>
     <script>
@@ -57,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/bb2.loader.js";
+      var loaderUrl = buildUrl + "/t1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/bb2.data",
-        frameworkUrl: buildUrl + "/bb2.framework.js",
-        codeUrl: buildUrl + "/bb2.wasm",
+        dataUrl: buildUrl + "/t1.data",
+        frameworkUrl: buildUrl + "/t1.framework.js",
+        codeUrl: buildUrl + "/t1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "MOB_WEB",
-        productVersion: "0.1.0",
+        productName: "Web-test",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
